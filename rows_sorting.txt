@@ -1,0 +1,17 @@
+SerialNumber
+Site
+TestResult
+hbin#
+hbin
+sbin#
+sbin
+startTime
+stopTime
+testTime(s)
+DeviceName
+HandlerID
+TesterID
+TestPGM
+LotID
+ProcessID
+OperatorID
