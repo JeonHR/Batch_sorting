@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-import time 
+
 
 
 folder_path = './output'  # 삭제하려는 폴더의 경로
@@ -33,7 +33,7 @@ if not os.path.exists(output_folder):
 
 # 입력 폴더 내의 모든 CSV 파일에 대해 처리
 for filename in os.listdir(input_folder):
-    if filename.lower().endswith('.CSV'):
+    if filename.lower().endswith('.csv'):
         print(f"현재 처리 중인 파일: {filename}")
         input_csv_path = os.path.join(input_folder, filename)
         output_csv_path = os.path.join(output_folder, filename)
@@ -43,12 +43,16 @@ for filename in os.listdir(input_folder):
         
         print(df)
         
-        selected_row = df.loc[data, :]  # 선택할 행의 인덱스를 정확히 지정해주세요.
-        
-               
-        selected_row.to_csv(output_csv_path)
-        print(f"2 행의 데이터와 일치하는 셀의 열만 남긴 새로운 CSV 파일이 생성되었습니다: {output_csv_path}")
+        try:
+            selected_row = df.loc[data, :]  # 선택할 행의 인덱스를 정확히 지정해주세요.
+            selected_row.to_csv(output_csv_path)
+            print(f"2 행의 데이터와 일치하는 셀의 열만 남긴 새로운 CSV 파일이 생성되었습니다: {output_csv_path}")
          
+
+        except KeyError as e :
+            print(e)
+
+
 
         
  
