@@ -44,12 +44,17 @@ for filename in os.listdir(input_folder):
         print(df)
         
         try:
-            selected_row = df.loc[data, :]  # 선택할 행의 인덱스를 정확히 지정해주세요.
-            selected_row.to_csv(output_csv_path)
-            print(f"2 행의 데이터와 일치하는 셀의 열만 남긴 새로운 CSV 파일이 생성되었습니다: {output_csv_path}")
-         
+            # data 리스트에 포함된 값과 일치하는 행만 선택하여 새로운 DataFrame 생성
+            selected_rows = df[df.index.isin(data)]
+            
+            # 선택된 행이 비어있지 않은 경우에만 CSV 파일로 저장
+            if not selected_rows.empty:
+                selected_rows.to_csv(output_csv_path)
+                print(f"2 행의 데이터와 일치하는 셀의 열만 남긴 새로운 CSV 파일이 생성되었습니다: {output_csv_path}")
+            else:
+                print("일치하는 값이 없어 CSV 파일을 생성하지 않았습니다.")
 
-        except KeyError as e :
+        except KeyError as e:
             print(e)
 
 
