@@ -48,7 +48,7 @@ for filename in os.listdir(input_folder):
          # CSV 파일을 DataFrame으로 로드
         df = pd.read_csv(input_csv_path, skiprows=1)
         
-        selected_rows= df.loc[df['TestResult'] == 'PASS']
+        selected_rows= df.loc[df['TestResult'] == 'PASS'] ## 열의 특정한 갑만 뽑을 수 있게 만드는 핵심
 
         select = selected_rows.loc[:,data]  # 선택할 행의 인덱스를 정확히 지정해주세요.
                
