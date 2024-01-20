@@ -9,6 +9,9 @@ Extracts all data in the desired row and column of Excel
 - Make 3 versions of code (row sorting, PASS Data Sorting, 2DID[column] Sorting)
 <img width="472" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/f604a948-5353-46a4-93ea-d9ec07b611dd">
 
+#### Batch_sorting input system
+<img width="494" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/52939724-906c-44dd-8183-353a9410833c">
+
 #### row sorting system
 <img width="740" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/3d998192-a9bc-4181-af24-9aa3aa5af28f">
 
