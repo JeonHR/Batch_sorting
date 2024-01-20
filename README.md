@@ -12,6 +12,9 @@ Extracts all data in the desired row and column of Excel
 #### row sorting system
 <img width="740" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/3d998192-a9bc-4181-af24-9aa3aa5af28f">
 
+#### column sorting system
+<img width="539" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/df113cc8-fdeb-40ce-a1e4-6c3b9897e98b">
+
 #### Knowledge 
 - Learn how to save data drawn from txt
 - Understanding the Data frame to obtain the desired value
