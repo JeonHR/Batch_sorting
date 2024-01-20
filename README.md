@@ -9,6 +9,8 @@ Extracts all data in the desired row and column of Excel
 - Make 3 versions of code (row sorting, PASS Data Sorting, 2DID[column] Sorting)
 <img width="472" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/f604a948-5353-46a4-93ea-d9ec07b611dd">
 
+#### row sorting system
+<img width="740" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/3d998192-a9bc-4181-af24-9aa3aa5af28f">
 
 #### Knowledge 
 - Learn how to save data drawn from txt
