@@ -7,7 +7,7 @@ Extracts all data in the desired row and column of Excel
 - Reduce the amount of capacity stored
 - to Get rid of unnecessary work time (Excel opening time, Data extraction time)
 - Make 3 versions of code (row sorting, PASS Data Sorting, 2DID[column] Sorting)
-
+<img width="472" alt="image" src="https://github.com/JeonHR/Batch_sorting/assets/140233882/f604a948-5353-46a4-93ea-d9ec07b611dd">
 
 
 #### Knowledge 
